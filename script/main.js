@@ -29,4 +29,22 @@ $(function () {
       transform: `translateY(${-img_num * img_height}px)`,
     });
   }, IntervalTime);
+
+  // 탭 ui
+  $(".btn-notice").on("click", function () {
+    $("#notice-box").addClass("show");
+    $("#gallery-box").removeClass("show");
+    $(".btn-group a").removeClass("show");
+    $(this).addClass("show");
+  });
+  $(".btn-gallery").on("click", function () {
+    $("#gallery-box").addClass("show");
+    $("#notice-box").removeClass("show");
+    $(".btn-group a").removeClass("show");
+    $(this).addClass("show");
+  });
+  /* popup */
+  $(".close").on("click", function () {
+    $(".popup").addClass("hide");
+  });
 });
