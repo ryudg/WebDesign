@@ -67,3 +67,6 @@ header nav .depth2 > li > a {
   display: block;
   padding: 8px;
 }
+header nav .depth2 > li > a:hover {
+  background: #999;
+}
