@@ -83,3 +83,26 @@ header nav .depth2 > li > a:hover {
 .slider > .sliders > img {
   display: block;
 }
+
+/* content */
+#main-content {
+  display: flex;
+}
+#main-content img {
+  display: block;
+}
+
+#main-content > div {
+  width: 33%;
+}
+#gallery-box {
+  display: flex;
+}
+#gallery-box img {
+  width: 33.33%;
+  height: 100%;
+  border: 4px solid #fff;
+}
+#notice-box {
+  background: #ccc;
+}
